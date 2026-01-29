@@ -17,6 +17,7 @@ def logistic_regression(x_train: np.ndarray, y_train: np.ndarray, x_test: np.nda
     
     model = LogisticRegression()
 
+    
 
     model.fit(x_train, y_train)
 
